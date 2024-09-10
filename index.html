@@ -6,10 +6,30 @@
     <title>Odin Knight Travails</title>
     <script src="main.js"></script>
     <style>
-        body {
-            background-color: black;
+      body {
+    width: 100%;
+    background-color: black;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+}
+        #gameboard div{border: solid goldenrod;
+            height: 100%;
+            width: 100%;
         }
-        div{border: solid white;}
+
+        #gameboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+}
     </style>
 </head>
 <body>
